@@ -17,10 +17,10 @@ git clone https://github.com/Atishmane/Dockerized-application
 
 cd Dockerized-application
 
-3. Build the Docker Image
+2. Build the Docker Image
 docker build -t web-scraper-app .
 
-4. Run the Container
+3. Run the Container
 Replace the URL with any valid website you want to scrape:
 docker run -e SCRAPE_URL="https://example.com" -p 5000:5000 web-scraper-app
 
