@@ -16,11 +16,11 @@ This project demonstrates a full-stack DevOps solution that scrapes data from a 
 -cd Dockerized-application
 
 2. Build the Docker Image
--docker build -t web-scraper-app .
+- docker build -t web-scraper-app .
 
 3. Run the Container
 Replace the URL with any valid website you want to scrape:
--docker run -e SCRAPE_URL="https://example.com" -p 5000:5000 web-scraper-app
+- docker run -e SCRAPE_URL="https://example.com" -p 5000:5000 web-scraper-app
 
 ## Access the Output
 
