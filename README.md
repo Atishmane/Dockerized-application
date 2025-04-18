@@ -13,7 +13,6 @@ This project demonstrates a full-stack DevOps solution that scrapes data from a 
 ## How to Use
 1. Clone the Repository
 git clone https://github.com/Atishmane/Dockerized-application.git
-
 cd Dockerized-application
 
 3. Build the Docker Image
@@ -26,6 +25,7 @@ docker run -e SCRAPE_URL="https://example.com" -p 5000:5000 web-scraper-app
 ## Access the Output
 
 Web UI (HTML View): http://localhost:5000
+
 JSON API: http://localhost:5000/api
 
 
