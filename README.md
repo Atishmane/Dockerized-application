@@ -13,6 +13,7 @@ This project demonstrates a full-stack DevOps solution that scrapes data from a 
 ## How to Use
 1. Clone the Repository
 git clone https://github.com/Atishmane/Dockerized-application.git
+
 cd Dockerized-application
 
 3. Build the Docker Image
